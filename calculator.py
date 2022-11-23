@@ -1,5 +1,8 @@
 # Calculator
-
+from colorama import init
+from colorama import Fore, Back, Style
+init()
+print(Back.GREEN)
 what = input("Ce facem? (+ ; - ; * ; /): ")
 
 a = float(input("Introdu primul numar: "))
